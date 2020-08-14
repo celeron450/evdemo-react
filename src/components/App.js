@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import '../styles/App.css';
+import VehicleList from './VehicleList';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         Electric Vehicle Demo App
       </header>
+      <VehicleList />
     </div>
   );
 }
