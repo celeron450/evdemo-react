@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from 'semantic-ui-react';
 import VehicleListItem from './VehicleListItem';
 import useFetchApi from '../hooks/useFetchApi';
 
@@ -15,9 +16,9 @@ function VehicleList(props) {
   }
 
   return (
-    <ul>
+    <Card.Group>
       {data.map(vehicle => <VehicleListItem key={vehicle.id} {...vehicle} />)}
-    </ul>
+    </Card.Group>
   );
 }
 
