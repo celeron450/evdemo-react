@@ -1,0 +1,16 @@
+.ui.card.vehicle-card {
+  width: initial;
+}
+
+.vehicle-card-image-container {
+  width: 320px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  background-color: #DDD;
+}
+
+.ui.card.vehicle-card>.content>.header:not(.ui) {
+  margin-top: 1em;
+  line-height: initial;
+}

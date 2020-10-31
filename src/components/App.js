@@ -1,7 +1,8 @@
 import React from 'react';
-import '../styles/App.css';
 import {Header} from 'semantic-ui-react';
 import VehicleList from './VehicleList';
+
+import '../styles/App.css';
 
 function App() {
   return (
